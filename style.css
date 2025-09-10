@@ -102,14 +102,33 @@ a:hover {
     text-decoration: underline;
 }
 
-.university-logo {
+.contact-section {
+    text-align: center;
+    margin: 2rem 0;
+}
+
+.contact-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #4a4a4a;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+}
+
+.contact-button:hover {
+    background-color: #666666;
+}
+
+.university-logo, .company-logo {
     width: 50px;
     height: 50px;
     margin-right: 10px;
     vertical-align: middle;
 }
 
-.education-item h3 {
+.education-item h3, .experience-item h3 {
     display: flex;
     align-items: center;
 }
